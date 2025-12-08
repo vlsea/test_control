@@ -33,7 +33,7 @@ header {
   display: grid;
   grid-column: 2;
   grid-row: 1;
-  background: url(/images/Logo.svg);
+  background: url(images/Logo.svg);
   width: 137px;
   height: 22px;
   opacity: 1;
