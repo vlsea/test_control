@@ -4,26 +4,18 @@
   box-sizing: border-box;
 }
 body {
-  padding: 100px;
-  max-width: 1704px;
-  min-height: 784px;
+  position: relative;
+  display: grid;
+  grid-template-columns: 32px 1fr 32px;
+  max-width: 1504px;
   border-radius: 16px;
   opacity: 1;
 }
 header {
   position: relative;
   display: grid;
-  grid-template-columns: 32px 1fr 32px;
-  max-width: 1504px;
-  min-height: 584px;
-  border-radius: 16px;
-  opacity: 1;
-}
-.subheader {
-  position: relative;
-  display: grid;
   grid-column: 2;
-  width: 1440px;
+  min-width: 1440px;
   height: 72px;
   opacity: 1;
   background: linear-gradient(90deg, #fedd2c 0%, #f9c201 100%);
