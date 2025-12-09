@@ -25,7 +25,7 @@ header {
   display: grid;
   grid-column: 2;
   grid-row: 1;
-  background: url(images/Logo.svg);
+  background: url(images/logo.svg);
   width: 137px;
   height: 22px;
   opacity: 1;
@@ -140,7 +140,7 @@ a {
   width: 173px;
   height: 24px;
   opacity: 1;
-  background: url(images/Telephone.svg);
+  background: url(images/telephone.svg);
   background-repeat: no-repeat;
   background-size: contain;
 }
@@ -216,12 +216,16 @@ a {
   background-size: contain;
   background-repeat: no-repeat;
   z-index: 0;
+  overflow: hidden;
+  border-radius: 16px;
 }
 .pizza-image img {
   width: 100%;
   height: 100%;
   background-size: contain;
   background-repeat: no-repeat;
+  overflow: hidden;
+  border-radius: 16px;
 }
 .Bowl {
   position: relative;
@@ -240,12 +244,16 @@ a {
   top: 0;
   left: 0;
   z-index: 0;
+  overflow: hidden;
+  border-radius: 16px;
 }
 .bowl-image img {
   width: 100%;
   height: 100%;
   background-size: contain;
   background-repeat: no-repeat;
+  overflow: hidden;
+  border-radius: 16px;
 }
 .main-course {
   position: relative;
@@ -264,12 +272,16 @@ a {
   top: 0;
   left: 0;
   z-index: 0;
+  overflow: hidden;
+  border-radius: 16px;
 }
 .main-course-image img {
   width: 100%;
   height: 100%;
   background-size: contain;
   background-repeat: no-repeat;
+  overflow: hidden;
+  border-radius: 16px;
 }
 .salads {
   position: relative;
@@ -288,12 +300,16 @@ a {
   top: 0;
   left: 0;
   z-index: 0;
+  overflow: hidden;
+  border-radius: 16px;
 }
 .salads-image img {
   width: 100%;
   height: 100%;
   background-size: contain;
   background-repeat: no-repeat;
+  overflow: hidden;
+  border-radius: 16px;
 }
 
 h3 {
