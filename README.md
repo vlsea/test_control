@@ -1,3 +1,0 @@
-# RestoApp
-Егор
-vlsea
